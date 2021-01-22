@@ -75,6 +75,7 @@ public:
      * @return An autoreleased Scene object.
      */
     static Scene *create();
+    static Scene *remove();
 
     /** Creates a new Scene object with a predefined Size. 
      *

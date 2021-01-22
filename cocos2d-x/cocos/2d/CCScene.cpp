@@ -129,6 +129,11 @@ Scene* Scene::create()
     }
 }
 
+Scene* Scene::Scene::remove()
+{
+    return Director::getInstance()->previousScene();
+}
+
 Scene* Scene::createWithSize(const Size& size)
 {
     Scene *ret = new (std::nothrow) Scene();

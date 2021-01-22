@@ -295,6 +295,10 @@ public:
      */
     void popScene();
 
+    void popScene(Scene *scene);
+
+    Scene* previousScene(void);
+
     /** 
      * Pops out all scenes from the stack until the root scene in the queue.
      * This scene will replace the running one.
