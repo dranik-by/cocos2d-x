@@ -1,0 +1,5 @@
+create Scene:
+        cocos2d::Director::getInstance()->pushScene(cocos2d::TransitionFade::create(0.5f, NameScene::createScene()));
+		
+remove Scene
+    cocos2d::Director::getInstance()->popScene(cocos2d::TransitionFade::create(0.5f, NameScene::removeScene()));
