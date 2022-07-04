@@ -33,3 +33,5 @@ DEPENDS+=' libgtk-3-dev'
 DEPENDS+=' binutils'
 
 sudo apt-get install --force-yes --yes $DEPENDS > /dev/null
+
+python2 setup.py
